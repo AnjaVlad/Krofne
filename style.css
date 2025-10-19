@@ -23,7 +23,6 @@ body {
   line-height: 1.6;
 }
 
-/* Header i navigacija */
 header {
   background: rgba(0, 0, 0, 0.4);
   position: sticky;
@@ -132,7 +131,6 @@ nav a:hover {
   background: var(--color-accent2);
 }
 
-/* Jump animacija */
 .jump {
   animation: jump 0.4s ease;
 }
@@ -145,7 +143,6 @@ nav a:hover {
   100% { transform: translateY(0); }
 }
 
-/* Tabela */
 table {
   width: 80%;
   margin: 2rem auto;
@@ -174,8 +171,26 @@ th, td {
   height:200px;
 }
 
+#vanilla {
+  width:200px;
+  height: 200px;
+}
+
+#classic {
+  width: 200px;
+  height:200px;
+}
+
 .slikeTabela {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mojFuter{
+  width: 100%;
+  background-color: white;
+  color: black;
+  position: sticky;
+  bottom: 0;
 }

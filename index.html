@@ -19,12 +19,12 @@
       </div>
       <ul id="nav-menu">
         <li><a href="#home">Почетна</a></li>
-        <li class="dropdown">
+        <li class="dropdown"> 
           <a href="#featured">Врсте</a>
           <div class="dropdown-content">
             <a href="#classic">Класична</a>
             <a href="#choco">Чоколадна</a>
-            <a href="#jam">Џем</a>
+            <a href="#vanilla">Ванила</a>
           </div>
         </li>
         <li><a href="#recept">Рецепт</a></li>
@@ -35,21 +35,31 @@
 
   <section class="hero" id="home">
     <div class="hero-content">
-      <h1>Добродошли у <span>свет крофни!</span></h1>
+      <h1>Добродошли y <span>свет крофни!</span></h1>
       <br>
-      <p>Слатке, мирисне и увек свежe</p>
+      <p>Слатке, мирисне и увек cвeжe</p>
       <br>
       <button class="btn-primary">Наруџбина</button>
     </div>
   </section>
-
+<br>
   <section id="featured" class="section">
-    <h2>Наше крофне</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-1">
+
+        </div>
+        <div class="col-sm-2">
+
+          <h2>Наше крофне</h2>
+        </div>
+      </div>
+    </div>
     <table>
       <tr><th>Тип</th><th>Слика</th><th>Цена (РСД)</th></tr>
-      <tr id="classic"><td>Класична</td><td><img src="https://cdn.pixabay.com/photo/2017/01/10/19/05/donut-1963822_1280.jpg"></td><td>120</td></tr>
-      <tr><td>Чоколадна</td><td class="slikeTabela"><img id="choco" src="./slike/krofne_cokolada.jpg"></td><td>150</td></tr>
-      <tr id="jam"><td>Џем</td><td><img src="https://cdn.pixabay.com/photo/2021/04/04/11/21/donuts-6150907_1280.jpg"></td><td>170</td></tr>
+      <tr><td>Класична</td><td class="slikeTabela"><img id="classic" src="./slike/krofne_klasik.png"></td><td>120</td></tr>
+      <tr><td>Чоколадна</td><td class="slikeTabela"><img id="choco" src="./slike/krofne_cokolada2.png"></td><td>150</td></tr>
+      <tr><td>Ванила</td><td class="slikeTabela"><img id="vanilla" src="./slike/krofne_vanila.png"></td><td>150</td></tr>
     </table>
   </section>
   <section id="recept" class="section">
@@ -59,7 +69,7 @@
     <h2>Састојци за домаће крофне</h2>
     <ul style="display:inline-block; text-align:left;">
       <li>500g брашна</li>
-      <li>250ml млека</li>
+      <li>230ml млека</li>
       <li>2 јајета</li>
       <li>50g шећера</li>
       <li>1 кесица сувог квасца</li>
@@ -81,11 +91,12 @@
       </form>
     </div>
   </div>
+  <br>
     <section id="contact" >
     </section>
 
-  <footer>
-    <p>© 2025 Слатке крофне — свеже сваки дан!</p>
+  <footer class="mojFuter">
+    <p>© 2025 Свет крофни — свеже сваки дан!</p>
   </footer>
 
   <script>
